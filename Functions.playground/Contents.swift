@@ -43,3 +43,11 @@ func getAgeAndCongratulate(name: String) -> Int {
 
 let friend2 = "Pete"
 var friend2Age = getAgeAndCongratulate(friend2)
+
+func highFive(name: String) -> String {
+    return "high five, \(name)!!!"
+}
+
+var nameOfMyFriend = "Sukufe"
+
+print("\(highFive(nameOfMyFriend))")
